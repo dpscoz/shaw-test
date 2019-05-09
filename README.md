@@ -35,6 +35,4 @@ Inside root folder
 
 3 - delete files 'browserlist' and 'browserlist.cmd' from client folder
 
-### serve with hot reload
-
-npm run dev
+4 - npm run dev
