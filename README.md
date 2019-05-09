@@ -13,15 +13,15 @@ Full-stack test for Shaw and Partners using github API/v3.
 - Back-end:
   * API to all client requests to the appropriate GitHub endpoint. The following endpoints are be provided:
 
-**GET - /api/users?since={number}
+  * GET - /api/users?since={number}
 
 This endpoint must return a list of GitHub users and the link for the next page.
 
-**GET - /api/users/:username/details
+  * GET - /api/users/:username/details
 
 This endpoint must return the details of a GitHub user
 
-**GET - /api/users/:username/repos
+  * GET - /api/users/:username/repos
 
 This endpoint must return a list with all user repositories
 
@@ -31,7 +31,7 @@ This endpoint must return a list with all user repositories
 
 npm run client-install
 
-delete files browserlist and browserlist.cmd from client folder
+delete files 'browserlist' and 'browserlist.cmd' from client folder
 
 ### serve with hot reload
 
