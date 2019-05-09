@@ -26,9 +26,13 @@ This endpoint must return a list with all user repositories
 
 ### run
 
-npm run client-install
+Inside root folder
 
-delete files 'browserlist' and 'browserlist.cmd' from client folder
+1 - npm install
+
+2 - npm run client-install
+
+3 - delete files 'browserlist' and 'browserlist.cmd' from client folder
 
 ### serve with hot reload
 
