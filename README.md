@@ -4,13 +4,14 @@
 
 Full-stack test for Shaw and Partners using github API/v3.
 
-##The app
+## REQUIREMENTS
 
 - Front-end:
-  _ List all users from GitHub and display their id and login with pagination.
-  _ Display the details of selected user: id, login, profile url, and date of the login creation in User Detail screen. \* Display the public repositories of selected user in User Detail screen.
+  * List all users from GitHub and display their id and login with pagination.
+  * Display the details of selected user: id, login, profile url, and date of the login creation in User Detail screen. \* Display the public repositories of selected user in User Detail screen.
 
-- Back-end: \* API to all client requests to the appropriate GitHub endpoint. The following endpoints are be provided:
+- Back-end:
+  * API to all client requests to the appropriate GitHub endpoint. The following endpoints are be provided:
 
       	**	GET - /api/users?since={number}
 
@@ -20,16 +21,16 @@ Full-stack test for Shaw and Partners using github API/v3.
 
   This endpoint must return the details of a GitHub user
 
-  \*\* GET - /api/users/:username/repos
+        ** GET - /api/users/:username/repos
   This endpoint must return a list with all user repositories
 
 ## Build Setup
 
-# install dependencies
+### install dependencies
 
 npm run client-install
 delete files browserlist and browserlist.cmd from client folder
 
-# serve with hot reload
+### serve with hot reload
 
 npm run dev
